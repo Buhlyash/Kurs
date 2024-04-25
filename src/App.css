@@ -1,5 +1,7 @@
 .image {
   width: inherit;
+  height: 600px;
+  object-fit: cover;
 }
 
 .item {
@@ -20,7 +22,6 @@
   display: flex;
 }
 
-.App,
 .products {
   display: flex;
   flex-wrap: wrap;
