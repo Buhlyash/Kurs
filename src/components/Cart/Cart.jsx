@@ -1,7 +1,7 @@
 import React from "react";
 
 function Cart() {
-  return <div></div>;
+  return <div>Корзина</div>;
 }
 
 export default Cart;

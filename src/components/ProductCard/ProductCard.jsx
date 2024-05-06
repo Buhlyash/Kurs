@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import imageStock from "../assets/img/image1.jpg";
+import imageStock from "../../assets/img/image1.jpg";
+import style from "./ProductCard.module.css";
 
 const ProductCard = ({ name, price }) => {
   const [value, setValue] = useState(0);
@@ -12,11 +13,11 @@ const ProductCard = ({ name, price }) => {
     setIsShown(!isShown);
   };
   return (
-    <div className="item">
-      <img className="image" src={imageStock} alt="react" />
-      <p className="name">{name}</p>
-      <p className="price">{price}</p>
-      <div className="counter">
+    <div className={style.item}>
+      <img className={style.image} src={imageStock} alt="react" />
+      <p className={style.name}>{name}</p>
+      <p className={style.price}>{price}</p>
+      <div className={style.counter}>
         <p>{value}</p>
         <button onClick={onClickAdd}>+</button>
       </div>

@@ -1,0 +1,23 @@
+.image {
+  width: inherit;
+  height: 600px;
+  object-fit: cover;
+}
+
+.item {
+  /* margin: 20px; */
+  /* background-color: rgb(201, 201, 201); */
+  width: 20vw;
+  height: 20vh;
+  text-align: left;
+  border-radius: 20px;
+}
+
+.item .name,
+.item .price {
+  padding-left: 10px;
+}
+
+.counter {
+  display: flex;
+}
